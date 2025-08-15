@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from curl_cffi import requests
 import json
-from models import OutNetModel
+from core.models import OutNetModel
 
 class WebScraper:
     def __init__(self, project_name, scraper_name, proxies=None, timeout=None):
